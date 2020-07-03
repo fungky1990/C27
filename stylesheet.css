@@ -223,8 +223,8 @@ footer {
 }
 
 @keyframes logo {
-  0%   {background-color:#dfe6e9;}
-  25%  {background-color:#b2bec3;}
-  50%  {background-color:#636e72;}
-  100% {background-color:#3d3d3d;}
+  0%   {background-color:#EA2027;}
+  25%  {background-color:#FFC312;}
+  50%  {background-color:#009432;}
+  100% {background-color:#1B1464;}
 }
