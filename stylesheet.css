@@ -170,39 +170,60 @@ header {
   color: #b3aeb5;
 }
 
-.heading h3 {
-  font-weight: normal;
+h3	{
+	font-size: 50px;
+	margin-bottom: 10px;
+	text-align: center;
+	color: #2c2c54;
 }
 
-.message-wrapper {
-  border-bottom: 1px solid #eee;
-  padding-bottom: 80px;
-  text-align: center;
+.contact-from{
+	padding-top: 70px;
 }
 
-.message {
-  padding: 15px 40px;
-  background-color: #5dca88;
-  cursor: pointer;
-  box-shadow: 0 7px #1a7940;
+.contact-from p {
+	margin-top: 30px;
+	font-size: 30px;
+}
+h4{
+	border-bottom: 2px solid #dee7ec;
+	padding-bottom: 15px;
+	margin-bottom: 50px;
+	font-size: 35px;
 }
 
-.message:active {
-  position: relative;
-  top: 7px;
-  box-shadow: none;
+input, textarea {
+	padding: 20px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-size: 18px;
+	width: 400px;
+	border: 1px solid #dee7ec;
 }
 
-footer img {
-  width: 125px;
-}
-
-footer p {
-  color: #b3aeb5;
-  font-size: 12px;
+.contact-sumbit {
+  background-color: #dee7ec;
+  color: #889eab;
+  width: 400px;
 }
 
 footer {
-  padding-top: 30px;
-  padding-bottom: 20px;
+  height: 120px;
+  background-color:  #2d3436;
+  padding: 40px;
+  color:#dfe6e9;
+  animation-duration: 4s;
+  animation-name: logo;
+}
+.footer-logo {
+  font-size : 80px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@keyframes logo {
+  0%   {background-color:#dfe6e9;}
+  25%  {background-color:#b2bec3;}
+  50%  {background-color:#636e72;}
+  100% {background-color:#3d3d3d;}
 }
